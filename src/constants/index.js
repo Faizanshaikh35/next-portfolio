@@ -22,7 +22,7 @@ import {
   carrent,
   jobit,
   tripguide,
-  threejs,
+  threejs,  sql, mysql, redis, angular,
 } from "../assets";
 
 export const navLinks = [
@@ -42,19 +42,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
-  },
-  {
-    title: "React Native Developer",
-    icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "React Native Developer",
+    icon: mobile,
+  },
+  {
+    title: "Graphics Designer",
     icon: creator,
   },
 ];
@@ -81,6 +81,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -93,8 +97,20 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Sequelize",
+    icon: sql,
+  },
+  {
+    name: "Mysql",
+    icon: mysql,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
+  },
+  {
+    name: "Redis",
+    icon: redis,
   },
   {
     name: "Three JS",
@@ -105,13 +121,9 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
-  },
-  {
     name: "docker",
     icon: docker,
-  },
+  }
 ];
 
 const experiences = [
