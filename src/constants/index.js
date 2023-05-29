@@ -132,7 +132,7 @@ const experiences = [
         ],
     },
     {
-        title: "Node.js Developer",
+        title: "React.js and Node.js",
         company_name: "3S Logics Pvt Ltd.",
         icon: company2,
         iconBg: "#E6DEDD",
