@@ -13,9 +13,7 @@ import {
     mongodb,
     git,
     docker,
-    starbucks,
-    tesla,
-    shopify, sql, mysql, redis, angular, job1, job2, job3, avatar1, avatar2, avatar3,
+    sql, mysql, redis, angular, job1, job2, job3, avatar1, avatar2, avatar3, company1, company2,
 } from "../assets";
 
 export const navLinks = [
@@ -122,23 +120,10 @@ const technologies = [
 const experiences = [
     {
         title: "React.js and Node.js",
-        company_name: "Ghanshyam Digital LLP (Trainee)",
-        icon: starbucks,
-        iconBg: "#383E56",
-        date: "Feb 2021 - August 2021",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "React.js Developer",
         company_name: "Ghanshyam Digital LLP",
-        icon: tesla,
-        iconBg: "#E6DEDD",
-        date: "August 2021 - August 2022",
+        icon: company1,
+        iconBg: "#383E56",
+        date: "Feb 2021 - August 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -148,9 +133,9 @@ const experiences = [
     },
     {
         title: "Node.js Developer",
-        company_name: "3s Logics Pvt Ltd.",
-        icon: shopify,
-        iconBg: "#383E56",
+        company_name: "3S Logics Pvt Ltd.",
+        icon: company2,
+        iconBg: "#E6DEDD",
         date: "August 2022",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",

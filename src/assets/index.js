@@ -33,6 +33,7 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+
 import job1 from "./job1.png";
 import job2 from "./job2.png";
 import job3 from "./job3.png";
@@ -40,6 +41,9 @@ import job3 from "./job3.png";
 import avatar1 from "./avatar/avatar1.png";
 import avatar2 from "./avatar/avatar2.png";
 import avatar3 from "./avatar/avatar3.png";
+
+import company1 from "./company/gd.png";
+import company2 from "./company/3slogics.png";
 
 export {
     logo,
@@ -80,4 +84,6 @@ export {
     avatar3,
     avatar2,
     avatar1,
+    company1,
+    company2,
 };
